@@ -1,0 +1,260 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #001219;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    background: #001219;
+    color: #e9d8a6;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 0px;
+    border: 2px solid #e9d8a6;
+}
+
+#menu ul{
+    display: flex;
+    justify-content: center;
+    background: #001219;
+    border-bottom: 2px solid #e9d8a6;
+}
+
+#menu ul li{
+    display: block;
+    line-height: 50px;
+    margin: 10px;
+    
+
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: #d4a373;
+}
+
+#menu ul li a:hover{
+    border-radius: 5px;
+    color: black;
+    background-color: #e9d8a6;
+    padding: 7px;
+    transition: 300ms;
+    
+}
+
+#h2Infocontacto{
+    display: flex;
+    justify-content: center;
+    line-height: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #171717;
+    border: 2px solid #ee9b00;
+    background: #e6d6c2;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+
+#cajaGrande {
+    display: flex;
+    padding: 60px;
+}
+
+#primeraCaja{
+    width: calc(50% - 10px);
+    text-align:center;
+}
+
+
+
+#segundaCaja{
+    width: calc(50% - 10px);
+    text-align: center;
+}
+
+#segundaCaja .datosDeContactoTexto{
+    margin-top: 15px;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+#primeraCaja .contactoTexto{
+    margin-top: 25px;
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+
+#segundaCaja p{
+    color: white;
+    margin-top: 4px;
+}
+
+#segundaCaja #pBorder{
+    border: 2px solid white;
+    padding: 50px;
+}
+
+#segundaCaja #pBorder:hover{
+    background-color: #e9d8a6;
+    transition: 300ms;
+    border: 2px solid orange;
+}
+
+#segundaCaja #pBorder:hover p{
+    color: black;
+}
+
+#ubicacionContacto h2{
+    display: flex;
+    justify-content: center;
+    line-height: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #171717;
+    border: 2px solid #ee9b00;
+    background: #e6d6c2;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+#segundaCaja h2{
+    color: white;
+    text-decoration: underline;
+    text-align: start;
+}
+
+#primeraCaja h2{
+    font-size: 19px;
+    color: white;
+}
+
+.cajitaTexto{
+    background: rgb(200, 200, 200);
+    border-radius: 12px;
+    width: 65%;
+    height: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 3px;
+    border: 2px solid #e9c968;
+}
+
+#textArea{
+    background: rgb(200, 200, 200);
+    border: 2px solid #e9c968;
+    border-radius: 12px;
+    width: 65%;
+    height: 100px;
+}
+
+#ubicacionContacto{
+    display: inline;
+    width: 100%;
+}
+
+#ubicacionContacto h2{
+    text-align: center;
+    color: #171717;
+}
+
+#ubicacionContacto .contenerIframe{
+    display: flex;
+}
+
+#ubicacionContacto .iframe{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 99%;
+    margin-bottom: 30px;
+}
+
+.iframe iframe{
+    border: 2px solid #e9d8a6;
+    box-shadow: 0px 0px 30px black;
+    border-radius: 10px;
+    width: 75%;
+    height: 300px;
+}
+
+#boton{
+    display: flex;
+    justify-content: center;
+}
+
+#botoncito{
+    background: #001219;
+    color: white;
+    padding: 10px;
+    border-radius: 13px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 8px black;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+#botoncito:hover{
+    transition: 300ms;
+    background-color: #e9d8a6;
+    color: #001219;
+    border-radius: 13px;
+    border: 3px solid orange;
+    box-shadow: 0px 0px 8px black;
+    cursor:pointer;
+}
+
+
+footer #footer{
+    display: flex;
+    justify-content: space-between;
+    background: #001219;
+    padding: 50px;
+    color: #adb5bd;
+    border-top: 25px solid #e9d8a6;
+}
+
+#cajita a{
+    text-decoration: none;
+    color: #adb5bd;
+}
+
+#cajita a:hover{
+    color: white;
+}
+
+#footer h2{
+    color: white;
+}
+
+#footer div{
+    margin-top: 30px;
+}
+
+#footer p{
+    margin-top: 5px;
+}
+
+#redes-sociales a img{
+    display: inline;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid white;
+    background: #e9d8a6;
+    width: 30px;
+    height: 30px;
+}
+
+#redes-sociales a img:hover{
+    transition: 300ms;
+    background: white;
+}
