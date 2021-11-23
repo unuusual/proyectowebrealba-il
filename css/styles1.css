@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 h1{
@@ -199,10 +200,27 @@ a.desplegable:hover{
 #establecimientos .establecimientos img{
     display: flex;
     justify-content: space-around;
-    padding: 0.6em;
     max-width: 100%;
+    width: 100%;
     height: auto;
     margin-top: 3em;
+    padding: 0.2em;
+}
+
+
+#iframe{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.iframe iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    width: 50em;
+    height: auto;
+    border: 2px solid #001219;
 }
 
 .establecimientos{
@@ -233,19 +251,6 @@ a.desplegable:hover{
     color: black;
 }
 
-#iframe{
-    display: flex;
-    max-width: 100%;
-    height: auto;
-    justify-content: space-around;
-}
-
-.iframe article iframe{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    max-width: 100%;
-    border: 2px solid #001219;
-}
 
 #h2{
     display: flex;
