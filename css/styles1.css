@@ -201,6 +201,9 @@ a.desplegable:hover{
     font-weight: bold;
     width: 70%;
     text-align: right;
+}
+
+.centrado p{
     font-size: 3.5;
 }
 
