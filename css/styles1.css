@@ -201,6 +201,7 @@ a.desplegable:hover{
     font-weight: bold;
     width: 70%;
     text-align: right;
+    font-size: 3.5;
 }
 
 .centrado p{
@@ -222,7 +223,7 @@ a.desplegable:hover{
 .iframe article iframe{
     margin-top: 10px;
     margin-bottom: 10px;
-
+    max-width: 100%;
     border: 2px solid #001219;
 }
 
@@ -269,6 +270,11 @@ a.desplegable:hover{
     margin-top: 10px;
     box-shadow: 0px 0px 5px black;
     padding: 0.2em;
+    font-size: 2.5em;
+}
+
+.seleccion p{
+    font-size: 2.5em;
 }
 
 #info .classForm{
@@ -290,6 +296,11 @@ a.desplegable:hover{
     background: #dee2e6;
     border-radius: 20px;
     padding: 0.2em;
+    font-size: 2.5em;
+}
+
+.cajitaTexto p{
+    font-size: 2.5em;
 }
 
 .cajitaTexto::placeholder{
