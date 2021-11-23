@@ -5,7 +5,8 @@
 }
 
 h1{
-    font-size: 3.5em;
+
+    font-size: 4em;
     text-align: center;
 }
 
@@ -40,7 +41,7 @@ body{
     line-height: 100px;
     margin-top: 0px;
     border: 2px solid #e9d8a6;
-    padding: .8em;
+    padding: 8em;
     margin-top: .5em;
 }
 
@@ -147,7 +148,6 @@ body{
         color: #171717;
         border: 2px solid #ee9b00;
         background: #e6d6c2;
-        font-size: 20px;
     }
 
     #circulos-todos{
@@ -229,6 +229,7 @@ body{
     color: #171717;
     border: 2px solid #ee9b00;
     background: #e6d6c2;
+    font-size: 2em;
 }
 
 
