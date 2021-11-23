@@ -57,31 +57,29 @@ body{
     ACA VA LA HAMBRUGUESA */
 
 
-    a.desplegable{
+    a.desplegable img{
         display: block;
-        width: 55px;
-        height: 55px;
-        background-image: url(../css/imagenes/hamburger.gif);
+        width: 80px;
+        height: 80px;
         background-color: black;
         position:fixed;
         top:0;
         right: 0;
         cursor: pointer;
-    }
-    a.desplegable:hover{
-        background-color:#000;
+
     }
 /* aca termina el menu */
 
 a.flechita img{
-    display: block;
-    width: 55px;
-    height: 55px;
+    display: inline;
+    width: 80px;
+    height: 80px;
     position:fixed;
     bottom: 200;
     right: 0;
     cursor: pointer;
 }
+
 
 
 #menu ul li{
