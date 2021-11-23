@@ -54,23 +54,35 @@ body{
 }
 
 /* 
-    ACA VA LA HAMBRUGUESA
+    ACA VA LA HAMBRUGUESA */
 
 
-a.desplegable{
+    a.desplegable{
+        display: block;
+        width: 55px;
+        height: 55px;
+        background-image: url(../css/imagenes/hamburger.gif);
+        background-color: black;
+        position:fixed;
+        top:0;
+        right: 0;
+        cursor: pointer;
+    }
+    a.desplegable:hover{
+        background-color:#000;
+    }
+/* aca termina el menu */
+
+a.flechita img{
     display: block;
     width: 55px;
     height: 55px;
-    background-image: url(../img/hamburger.gif);
-    background-color: #06a8de;
     position:fixed;
-    top:0;
+    top: 200;
     right: 0;
     cursor: pointer;
 }
-a.desplegable:hover{
-    background-color:#000;
-} */
+
 
 #menu ul li{
     display: block;
@@ -426,3 +438,4 @@ footer #footer{
     max-width: 100%;
     height: auto;
 }
+
