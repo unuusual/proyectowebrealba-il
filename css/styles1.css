@@ -344,6 +344,10 @@ footer #footer{
 }
 
 .cajitas a{
+    display: flex;
+    margin-top: 0.1em;
+    flex-direction: column;
+    text-align: center;
     text-decoration: none;
     color: #adb5bd;
 }
@@ -364,6 +368,10 @@ footer #footer{
 #footer p{
     margin-top: 5px;
     text-align: center;
+}
+
+#footer a{
+    
 }
 
 #redes-sociales{
