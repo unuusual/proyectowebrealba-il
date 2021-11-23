@@ -121,10 +121,6 @@ a.desplegable:hover{
     
     text-align: center;
     margin-top: 20px;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    margin-top: 10px;
     
     
 }
@@ -376,7 +372,17 @@ footer #footer{
     text-align: center;
     text-decoration: none;
     color: #adb5bd;
-    font-size: 1.9em;
+    font-size: 1.1em;
+}
+
+.cajitas p{
+    display: flex;
+    margin-top: 0.1em;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: #adb5bd;
+    font-size: 2em;
 }
 
 .cajitas a:hover{
