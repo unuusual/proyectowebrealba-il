@@ -78,7 +78,7 @@ a.flechita img{
     width: 55px;
     height: 55px;
     position:fixed;
-    top: 200;
+    bottom: 200;
     right: 0;
     cursor: pointer;
 }

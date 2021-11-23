@@ -1,16 +1,16 @@
 $(document).ready(function(){ 
     $("a.desplegable").click(function(){
-      if($('.menu').is(":visible")){
-          $('.menu').slideUp();
+      if($('#menu').is(":visible")){
+          $('#menu').slideUp();
       }else{
-        $('.menu').slideDown();
+        $('#menu').slideDown();
       }
     });
 $(window).resize(function(){
     if($(this).width()>768){
-        $(".menu").show();
+        $("#menu").show();
     } else{
-        $(".menu").hide();
+        $("#menu").hide();
     }
 });
 });
