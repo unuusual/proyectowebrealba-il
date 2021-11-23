@@ -7,8 +7,6 @@
 h1{
     font-size: 3.5em;
     text-align: center;
-    padding: .8em;
-    margin-top: .5em;
 }
 
 h2{
@@ -42,6 +40,8 @@ body{
     line-height: 100px;
     margin-top: 0px;
     border: 2px solid #e9d8a6;
+    padding: .8em;
+    margin-top: .5em;
 }
 
 #menu ul{
@@ -78,6 +78,63 @@ body{
     }
     a.desplegable{
         display: none;
+    }
+
+    h1{
+        font-size: 1.7em;
+    }
+    
+    h2{
+        font-size:1.5em;
+        text-align: center;
+    }
+    
+    p{
+        font-size: 2.1em;
+    }
+    
+    a{
+        font-size: 1.4em;
+    }
+
+    #titulo{
+        display: flex;
+        justify-content: center;
+        background: #001219;
+        color: #e9d8a6;
+        text-align: center;
+        line-height: 100px;
+        margin-top: 0px;
+        border: 2px solid #e9d8a6;
+    }
+    
+    
+    #menu ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        background: #001219;
+        border-bottom: 2px solid #e9d8a6;
+    }
+    
+    #menu ul li{
+        display: block;
+        line-height: 50px;
+        margin: 10px;
+    }
+    
+    #menu ul li a{
+        text-decoration: none;
+        color: #d4a373;
+    }
+    
+    #menu ul li a:hover{
+        border-radius: 5px;
+        color: black;
+        background-color: #e9d8a6;
+        padding: 7px;
+        transition: 300ms;
+        
     }
     
 }
