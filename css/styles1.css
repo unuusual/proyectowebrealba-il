@@ -47,7 +47,8 @@ body{
 
 #menu ul{
     display: flex;
-    justify-content: center;
+    text-align: center;
+    flex-direction: column;
     background: #001219;
     border-bottom: 2px solid #e9d8a6;
 }
@@ -109,7 +110,8 @@ a.desplegable:hover{
 
 #circulos-todos{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 #circulos-todos div{
@@ -209,15 +211,15 @@ a.desplegable:hover{
 
 #iframe{
     display: flex;
+    max-width: 100%;
+    height: auto;
     justify-content: space-around;
 }
 
 .iframe article iframe{
     margin-top: 10px;
     margin-bottom: 10px;
-    max-width: 100%;
-    height: auto;
-    padding: 0.6em;
+
     border: 2px solid #001219;
 }
 
