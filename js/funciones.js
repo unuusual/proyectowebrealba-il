@@ -1,6 +1,6 @@
 $(document).ready(function(){ 
     $("a.desplegable").click(function(){
-      if($('#menu').is(":hidden")){
+      if($('#menu').is(":visible")){
           $('#menu').slideUp();
       }else{
         $('#menu').slideDown();
@@ -8,9 +8,9 @@ $(document).ready(function(){
     });
 $(window).resize(function(){
     if($(this).width()>768){
-        $("#menu").show();
-    } else{
         $("#menu").hide();
+    } else{
+        $("#menu").show();
     }
 });
 });
