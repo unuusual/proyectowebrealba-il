@@ -266,7 +266,6 @@ body{
     margin-top: 5px;
     display: flex;
     justify-content: center;
-    background: #e6d6c2;
     border: 2px solid orange;
     margin-bottom: 25px;
 }
@@ -274,6 +273,7 @@ body{
 #buscarCurso h2{
     display: flex;
     justify-content: center;
+    color: white;
 
 }
 
@@ -348,8 +348,8 @@ body{
 }
 
 #botoncito{
-    background: #001219;
-    color: white;
+    background: white;
+    color: #001219;
     padding: 0.7em;
     border-radius: 15px;
     box-shadow: 0px 0px 4px black;
