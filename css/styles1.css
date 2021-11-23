@@ -109,7 +109,7 @@ a.desplegable:hover{
 
 #circulos-todos{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #circulos-todos div{
