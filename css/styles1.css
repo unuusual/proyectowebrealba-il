@@ -5,23 +5,26 @@
 }
 
 h1{
-    font-size: 1em;
+    font-size: 1.6em;
     text-align: center;
+    padding: .8em;
     margin-top: .5em;
 }
 
 h2{
-    font-size: 1em;
+    font-size:1.5em;
     text-align: center;
+    padding: .8em;
 }
 
 p{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 a{
-    font-size:.8em;
+    font-size:.8em
 }
+
 
 body{
     font-size: 70%;
