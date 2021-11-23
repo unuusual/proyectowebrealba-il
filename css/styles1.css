@@ -14,7 +14,6 @@ h1{
 h2{
     font-size:3em;
     text-align: center;
-    padding: .8em;
 }
 
 p{
@@ -258,7 +257,6 @@ body{
     justify-content: center;
     line-height: 5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 5px;
     color: #171717;
     border: 2px solid #ee9b00;
     background: #e6d6c2;
@@ -293,7 +291,7 @@ body{
     color: black;
     border-radius: 20px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1em;
     box-shadow: 0px 0px 5px black;
     padding: 0.2em;
     font-size: 2.5em;
@@ -310,10 +308,7 @@ body{
     
 }
 
-#caja h2{  
-    margin-top: 5px;
-    margin-bottom: 5px; 
-}
+
 
 .cajitaTexto{
     display: flex;
@@ -324,10 +319,23 @@ body{
     border-radius: 20px;
     padding: 0.2em;
     font-size: 2.5em;
+    margin-bottom: 0.9em;
 }
 
 .cajitaTexto p{
     font-size: 2.5em;
+}
+
+#nombreEst{
+    margin-top: 2em;
+}
+
+#email{
+    margin-bottom: 1.9em;
+}
+
+#nombrePrecio{
+    margin-top: 2em;
 }
 
 .cajitaTexto::placeholder{
@@ -342,12 +350,13 @@ body{
 #botoncito{
     background: #001219;
     color: white;
-    padding: 10px;
+    padding: 0.7em;
     border-radius: 15px;
     box-shadow: 0px 0px 4px black;
     cursor:pointer;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-bottom: 0.4em;
+
 }
 
 #botoncito:hover{
