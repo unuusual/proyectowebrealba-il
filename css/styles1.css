@@ -70,17 +70,6 @@ body{
     }
 /* aca termina el menu */
 
-a.flechita img{
-    display: inline;
-    width: 80px;
-    height: 80px;
-    position:fixed;
-    bottom: 200;
-    right: 0;
-    cursor: pointer;
-}
-
-
 
 #menu ul li{
     display: block;
