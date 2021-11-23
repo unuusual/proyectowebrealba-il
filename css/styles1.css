@@ -1,28 +1,27 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 h1{
-    font-size: 2em;
+    font-size: 3.5em;
     text-align: center;
     padding: .8em;
     margin-top: .5em;
 }
 
 h2{
-    font-size:2em;
+    font-size:3.5em;
     text-align: center;
     padding: .8em;
 }
 
 p{
-    font-size: 2;
+    font-size: 3.5;
 }
 
 a{
-    font-size: 1.8em;
+    font-size: 2.8em;
 }
 
 
@@ -202,6 +201,7 @@ a.desplegable:hover{
     font-weight: bold;
     width: 70%;
     text-align: right;
+    font-size: 3.5;
 }
 
 .establecimientos .centrado{
@@ -362,6 +362,8 @@ footer #footer{
     border-radius: 50%;
     margin-left: 0.8em;
     margin-top:  0.8em;
+    width: 3em;
+    height: 3em;
     border: 1px solid white;
     background: #e9d8a6;
 }
