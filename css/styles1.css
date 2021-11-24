@@ -549,7 +549,7 @@ footer #footer{
         display: flex;
         justify-content: space-around;
         flex-direction: row;
-        padding: 0;
+        padding: 15em;
     }
     
     
