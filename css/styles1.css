@@ -118,7 +118,7 @@ body{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding: 5em;
+    padding: 15em;
 }
 
 
@@ -126,8 +126,6 @@ body{
     
     text-align: center;
     margin-top: 20px;
-    padding: 15em;
-    
 }
 
 /*
