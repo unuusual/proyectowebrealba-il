@@ -40,22 +40,40 @@
 
                     
         <div class="contenedor">
-
-        <label for="filtro"> <p>Filtrar por:</p> </label>
-        <select name="filtro" id="filtro">
-            <option value="0">Seleccionar</option>
-            <option value="1">Frances</option>
-            <option value="2">Ingles</option>
-            <option value="3">Portugues</option>
-            <option value="4">Ruso</option>
-            <option value="5">Chino</option>
-            <option value="6">Coreano</option>
-            <option value="7">Japones</option>
-            <option value="8">Italiano</option>
-        </select>
-        <button type="submit" id="btn">Filtrar</button>
-      
+            <div class="contengoCajitas">
+            <label for="filtro"> <p>Filtrar por idioma:</p> </label>
+            <select name="filtro" id="filtro">
+                <option value="0">Seleccionar Idioma</option>
+                <option value="1">Frances</option>
+                <option value="2">Ingles</option>
+                <option value="3">Portugues</option>
+                <option value="4">Ruso</option>
+                <option value="5">Chino</option>
+                <option value="6">Coreano</option>
+                <option value="7">Japones</option>
+                <option value="8">Italiano</option>
+            </select>
+            <button type="submit" id="btn">Filtrar</button>
         </div>
+        <div class="contengoCajitas">
+            <label for="filtroEst">Filtrar por establecimientos:</label>
+            <select name="filtroEst" id="filtroEst">
+                <option value="0">Seleccionar Establecimiento</option>
+                <option value="1">Ramos mejia</option>
+                <option value="2">Mataderos</option>
+                <option value="3">La ferrere</option>
+                <option value="4">Villa luro</option>
+            </select>
+            <button type="submit" id="btnEst">Filtrar</button>
+        </div>
+                
+            
+        </div>
+
+       
+        
+      
+        
 
         <article id="formularios">
 
@@ -71,9 +89,10 @@
 
             <div class="cursos">
                     <h2>MES 1</h2>
-                <div class="est-todos" id="frances">
+                <div class="est-todos ramos-mejia" id="frances">
                     <img src="css/imagenes/francia.png" alt="">
                     <h3>FRANCES</h3>
+                    <p>Establecimiento: Ramos mejia</p>
                     <p>Modalidad: Virtual</p>
                     <p>Fecha de inicio: 25/11/2021</p>
                     <p>Precio: $0000</p>
@@ -81,9 +100,10 @@
                 </div>
 
 
-                <div class="est-todos"  id="italiano"> 
+                <div class="est-todos ramos-mejia"  id="italiano"> 
                     <img src="css/imagenes/italia.png" alt="">
                     <h3>ITALIANO</h3>
+                    <p>Establecimiento: Ramos mejia</p>
                     <p>Modalidad: Presencial</p>
                     <p>Fecha de inicio: 30/12/2021</p>
                     <p>Precio: $0000</p>
@@ -94,9 +114,10 @@
             <div class="cursos" >
 
                 <h2 id="mes1">MES 1</h2>
-                    <div class="est-todos" id="chino">
+                    <div class="est-todos lafe" id="chino">
                         <img src="css/imagenes/china.jpg" alt="">
                         <h3>CHINO</h3>
+                        <p>Establecimiento: Mataderos</p>
                         <p>Modalidad: Virtual</p>
                         <p>Fecha de inicio: 10/10/2021</p>
                         <p>Precio: $0000</p>
@@ -105,9 +126,10 @@
                 
                 
                     
-                    <div class="est-todos"  id="coreano">
+                    <div class="est-todos lafe"  id="coreano">
                         <img src="css/imagenes/corea.png" alt="">
                         <h3>COREANO</h3>
+                        <p>Establecimiento: Mataderos</p>
                         <p>Modalidad: Presencial</p>
                         <p>Fecha de inicio: 5/12/2021</p>
                         <p>Precio: $0000</p>
@@ -127,10 +149,11 @@
             
             <div class="cursos">
                     <h2>MES 2</h2>
-                <div class="est-todos" id="ingles">
+                <div class="est-todos villa-luro" id="ingles">
                     <img src="css/imagenes/ingles.png" alt="">
                     
                         <h3>INGLES</h3>
+                        <p>Establecimiento: La ferrere</p>
                         <p>Modalidad: Virtual</p>
                         <p>Fecha de inicio: 18/11/2021</p>
                         <p>Precio: $0000</p>
@@ -139,9 +162,10 @@
                 </div>
             
             
-                <div class="est-todos" id="ruso">
+                <div class="est-todos villa-luro" id="ruso">
                     <img src="css/imagenes/rusia.png" alt="">
                     <h3>RUSO</h3>
+                    <p>Establecimiento: La ferrere</p>
                     <p>Modalidad: Virtual</p>
                     <p>Fecha de inicio: 5/1/2022</p>
                     <p>Precio: $0000</p>
@@ -151,9 +175,10 @@
 
             <div class="cursos">
                 <h2 id="mes1">MES 1</h2>
-                <div class="est-todos" id="japones">
+                <div class="est-todos mataderos" id="japones">
                     <img src="css/imagenes/japon.png" alt="">
                     <h3>JAPONES</h3>
+                    <p>Establecimiento: Villa luro</p>
                     <p>Modalidad: Virtual</p>
                     <p>Fecha de inicio: 30/2/2022</p>
                     <p>Precio: $0000</p>
@@ -162,9 +187,10 @@
             
             
                
-                <div class="est-todos" id="portugues">
+                <div class="est-todos mataderos" id="portugues">
                     <img src="css/imagenes/portugal.jpg" alt="">
                     <h3>PORTUGUES</h3>
+                    <p>Establecimiento: Villa luro</p>
                     <p>Modalidad: Presencial</p>
                     <p>Fecha de inicio: 15/5/2022</p>
                     <p>Precio: $0000</p>

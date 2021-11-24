@@ -10,13 +10,21 @@ body{
     background: #001219;
 }
 
+
+.contengoCajitas{
+    display: flex;
+    justify-content: center;
+}
+
 .contenedor{
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     color: white;
 }
 
 .contenedor label{
+    display: flex;
+    justify-content: space-around;
     background-color: #e9d8a6;
     border: 2px solid white;
     color: black;
@@ -29,6 +37,7 @@ body{
     height: 3em;
 }
 
+
 #btn{
     width: 8em;
     color: grey;
@@ -36,6 +45,17 @@ body{
     margin-top: 0.5em;
     background-color: white;
     cursor: pointer;
+
+}
+
+#btnEst{
+    width: 8em;
+    color: grey;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 2em;
 
 }
 
