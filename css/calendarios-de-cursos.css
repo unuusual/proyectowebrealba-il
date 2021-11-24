@@ -13,7 +13,23 @@ body{
 
 .contengoCajitas{
     display: flex;
-    justify-content: center;
+    justify-content: space-around
+}
+
+.contengoCajitas label{
+
+}
+
+#filtro{
+    border-radius: 5px;
+    background: #ccc;
+    margin-left: 10px;
+}
+
+#filtroEst{
+    border-radius: 5px;
+    background: #ccc;
+    margin-left: 10px;
 }
 
 .contenedor{
@@ -42,7 +58,6 @@ body{
     width: 8em;
     color: grey;
     margin-left: 0.5em;
-    margin-top: 0.5em;
     background-color: white;
     cursor: pointer;
 
@@ -52,7 +67,6 @@ body{
     width: 8em;
     color: grey;
     margin-left: 0.5em;
-    margin-top: 0.5em;
     background-color: white;
     cursor: pointer;
     margin-right: 2em;
