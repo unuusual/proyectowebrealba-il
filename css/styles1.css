@@ -447,7 +447,12 @@ footer #footer{
     height: auto;
 }
 
-@media screen and (min-width:1080px){
+@media screen and (min-width:60em){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
     
     ul{
         display: flex;
@@ -484,6 +489,7 @@ footer #footer{
         margin-top: 0px;
         border: 2px solid #e9d8a6;
         font-size: 1.7em;
+        padding: 1em;
     }
     
     
@@ -524,23 +530,42 @@ footer #footer{
         color: #171717;
         border: 2px solid #ee9b00;
         background: #e6d6c2;
+        font-size: 20px;
+    }
+
+    #tituloIndex2{
+        display: flex;
+        justify-content: center;
+        line-height: 5em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 2em;
+        color: #171717;
+        border: 2px solid #ee9b00;
+        background: #e6d6c2;
+        font-size: 20px;
     }
 
     #circulos-todos{
         display: flex;
         justify-content: space-around;
+        flex-direction: row;
+        padding: 0;
     }
     
+    
     #circulos-todos div{
+        
         text-align: center;
         margin-top: 20px;
+        
+        
     }
+    
     
     #circulos-todos div h4{
         border: 2px solid #ca6702;
         color: #001219;
         background-color: #e6d6c2;
-        padding: 3px;
         border-radius: 10px;
     }
     
@@ -556,6 +581,7 @@ footer #footer{
     
     .circulo img{
         display: flex;
+        max-width: 100%;
         justify-content: space-between;
         width: 200px;
         height: 200px;
@@ -564,6 +590,56 @@ footer #footer{
         margin: auto;
         margin-top: 50px;
         border: 4px solid #e9d8a6;
+    }
+
+    #establecimientos{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        background: #001219;
+        padding: 5em;
+    }
+    
+    #establecimientos .establecimientos img{
+        display: flex;
+        justify-content: end;
+        max-width: 100%;
+        max-width: 100%;
+        margin-top: 3em;
+        border: 2px solid white;
+    }
+    
+    #establecimientos .establecimientos p{
+        font-size: 1.6em;
+    }
+    
+    
+    #iframe{
+        display: flex;
+        justify-content: space-around;
+        height: auto;
+    }
+    
+    .iframe iframe{
+        display: flex;
+        justify-content: end;
+        max-width: 100%;
+        width: 50em;
+        height: auto;
+        max-width: 100%;
+        margin-top: 3em;
+        border: 2px solid white;
+    }
+
+    .parteUno{
+        display: flex;
+        justify-content: center;
+    }
+
+    .parteDos{
+        display: flex;
+        justify-content: center;
     }
     
     
