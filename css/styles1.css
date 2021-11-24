@@ -126,7 +126,7 @@ body{
     
     text-align: center;
     margin-top: 20px;
-    
+    padding: 15em;
     
 }
 
@@ -549,7 +549,7 @@ footer #footer{
         display: flex;
         justify-content: space-around;
         flex-direction: row;
-        padding: 15em;
+        padding: 0em;
     }
     
     
