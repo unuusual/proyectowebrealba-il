@@ -118,7 +118,7 @@ body{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding: 15em;
+    padding: 5em;
 }
 
 
@@ -604,7 +604,6 @@ footer #footer{
     #establecimientos .establecimientos img{
         display: flex;
         justify-content: end;
-        max-width: 100%;
         max-width: 100%;
         margin-top: 3em;
         border: 2px solid white;
