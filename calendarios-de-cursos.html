@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/calendarios-de-cursos.css">
     <link rel="icon" type="favicon/x-icon" href="css/imagenes/real_bañil.jpg">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/establecimientosjs.js"></script>
+
+    
     <title>Calendarios de Cursos</title>
 </head>
 <body>
@@ -33,29 +38,27 @@
             <h2>CALENDARIO DE CURSOS</h2>
         </section>
 
-        <article id="formularios">
-            
-            <label for="filtrado" id="label">Filtrar por: </label>
+                    
+        <div class="contenedor">
 
-            <select name="formulario" id="selectFormulario" class="formu">
-                <option value="">Establecimiento</option>
-                <option value="1">VILLA LURO</option>
-                <option value="2">MATADEROS</option>
-                <option value="3">LAFERRERE</option>
-                <option value="4">RAMOS MEJIA</option>
-            </select>
-            
-            <select name="formulario" class="formu">
-                <option value="">Idioma</option>
-                <option value="1">JAPONES</option>
-                <option value="2">INGLES</option>
-                <option value="3">COREANO</option>
-                <option value="4">PORTUGUES</option>
-                <option value="4">ITALIANO</option>
-                <option value="4">FRANCES</option>
-                <option value="4">RUSO</option>
-                <option value="4">CHINO</option>
-            </select>
+        <label for="filtro"> <p>Filtrar por:</p> </label>
+        <select name="filtro" id="filtro">
+            <option value="0">Seleccionar</option>
+            <option value="1">Frances</option>
+            <option value="2">Ingles</option>
+            <option value="3">Portugues</option>
+            <option value="4">Ruso</option>
+            <option value="5">Chino</option>
+            <option value="6">Coreano</option>
+            <option value="7">Japones</option>
+            <option value="8">Italiano</option>
+        </select>
+        <button type="submit" id="btn">Filtrar</button>
+      
+        </div>
+
+        <article id="formularios">
+
         </article>
 
 
@@ -68,7 +71,7 @@
 
             <div class="cursos">
                     <h2>MES 1</h2>
-                <div class="est-todos">
+                <div class="est-todos" id="frances">
                     <img src="css/imagenes/francia.png" alt="">
                     <h3>FRANCES</h3>
                     <p>Modalidad: Virtual</p>
@@ -78,7 +81,7 @@
                 </div>
 
 
-                <div class="est-todos">
+                <div class="est-todos"  id="italiano"> 
                     <img src="css/imagenes/italia.png" alt="">
                     <h3>ITALIANO</h3>
                     <p>Modalidad: Presencial</p>
@@ -88,10 +91,10 @@
                 </div>
             </div>
 
-            <div class="cursos">
+            <div class="cursos" >
 
                 <h2 id="mes1">MES 1</h2>
-                    <div class="est-todos">
+                    <div class="est-todos" id="chino">
                         <img src="css/imagenes/china.jpg" alt="">
                         <h3>CHINO</h3>
                         <p>Modalidad: Virtual</p>
@@ -102,7 +105,7 @@
                 
                 
                     
-                    <div class="est-todos">
+                    <div class="est-todos"  id="coreano">
                         <img src="css/imagenes/corea.png" alt="">
                         <h3>COREANO</h3>
                         <p>Modalidad: Presencial</p>
@@ -124,7 +127,7 @@
             
             <div class="cursos">
                     <h2>MES 2</h2>
-                <div class="est-todos">
+                <div class="est-todos" id="ingles">
                     <img src="css/imagenes/ingles.png" alt="">
                     
                         <h3>INGLES</h3>
@@ -136,7 +139,7 @@
                 </div>
             
             
-                <div class="est-todos">
+                <div class="est-todos" id="ruso">
                     <img src="css/imagenes/rusia.png" alt="">
                     <h3>RUSO</h3>
                     <p>Modalidad: Virtual</p>
@@ -148,7 +151,7 @@
 
             <div class="cursos">
                 <h2 id="mes1">MES 1</h2>
-                <div class="est-todos">
+                <div class="est-todos" id="japones">
                     <img src="css/imagenes/japon.png" alt="">
                     <h3>JAPONES</h3>
                     <p>Modalidad: Virtual</p>
@@ -159,7 +162,7 @@
             
             
                
-                <div class="est-todos">
+                <div class="est-todos" id="portugues">
                     <img src="css/imagenes/portugal.jpg" alt="">
                     <h3>PORTUGUES</h3>
                     <p>Modalidad: Presencial</p>

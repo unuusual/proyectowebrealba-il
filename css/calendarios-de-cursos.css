@@ -10,6 +10,39 @@ body{
     background: #001219;
 }
 
+.contenedor{
+    display: flex;
+    justify-content: start;
+    color: white;
+}
+
+.contenedor label{
+    background-color: #e9d8a6;
+    border: 2px solid white;
+    color: black;
+    padding: 0.6em;
+    margin-left: 2em;
+}
+
+.contenedor select{
+    width: 17em;
+    height: 3em;
+}
+
+#btn{
+    width: 8em;
+    color: grey;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+
+
+
+
 #titulo{
     display: flex;
     justify-content: center;
