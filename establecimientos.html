@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/establecimientos.css">
     <link rel="icon" type="favicon/x-icon" href="css/imagenes/real_bañil.jpg">
-    <script src="js/establecimientosnombre.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/establecimientosnombre.js"></script>
+    
     <title>Establecimientos</title>
 </head>
 <body>
@@ -35,9 +37,15 @@
             <h2>ESTABLECIMIENTOS</h2>
 
             <article id="formulario">
-                <form action="#">
-                    <input id ="input" type="text" placeholder="Filtrar por zona">
-                </form>
+                <label for="filtro"> <p>Filtrar por Establecimiento:</p> </label>
+            <select name="filtro" id="filtro">
+                <option value="0">Seleccionar Idioma</option>
+                <option value="1">Ramos Mejia</option>
+                <option value="2">Villa Luro</option>
+                <option value="3">Mataderos</option>
+                <option value="4">La Ferrere</option>
+            </select>
+            <button type="submit" id="btn">Filtrar</button>
             </article>
         </section>
 
@@ -45,7 +53,7 @@
 
 
         <article id="imgEstablecimientos">
-                <div class="establecimientos">
+                <div class="establecimientos ramos-mejia">
                     <img src="css/imagenes/establecimiento3.jpg" alt="">
                     <div class="est-todos">
                         <h3>RAMOS MEJIA</h3>
@@ -56,9 +64,9 @@
                     </div>
 
                 </div>
-                <div class="establecimientos" >
+                <div class="establecimientos villa-luro" >
                     <img src="css/imagenes/establecimiento2.jpg" alt="">
-                    <div class="est-todos">
+                    <div class="est-todos ">
                         <h3>VILLA LURO</h3>
                         <p>Av Santa Rosa 1243</p>
                         <p>Provincia de Buenos Aires</p>
@@ -68,9 +76,9 @@
                     
 
                 </div>
-                <div class="establecimientos">
+                <div class="establecimientos mataderos">
                     <img src="css/imagenes/establecimiento1.jpg" alt="">
-                    <div class="est-todos">
+                    <div class="est-todos ">
                         <h3>MATADEROS</h3>
                         <p>Av Alberdi 9801</p>
                         <p>Provincia de Buenos Aires</p>
@@ -78,9 +86,9 @@
                         <a href="detalle-de-cada-establecimiento.html" target="_blank"><input type="submit" value="Ver Detalles"></a>
                     </div>
                 </div>
-                <div class="establecimientos">
+                <div class="establecimientos lafe">
                     <img src="css/imagenes/establecimiento4.jpg" alt="">
-                    <div class="est-todos">
+                    <div class="est-todos ">
                         <h3>LAFERRERE</h3>
                         <p>Av Puñales 6458</p>
                         <p>Provincia de Buenos Aires</p>
