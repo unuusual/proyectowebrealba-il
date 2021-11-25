@@ -16,8 +16,12 @@ body{
     justify-content: space-around
 }
 
-.contengoCajitas label{
+.contengoCajitas{
+    margin-top: 10px;
+}
 
+.contengoCajitas label{
+    border-radius: 5px;
 }
 
 #filtro{
@@ -56,21 +60,35 @@ body{
 
 #btn{
     width: 8em;
-    color: grey;
+    color: white;
     margin-left: 0.5em;
-    background-color: white;
+    border-radius: 5px;
+    background-color: #001219;
     cursor: pointer;
+    transition: 300ms;
 
+}
+
+#btn:hover{
+    color: black;
+    background: #e9d8a6; 
 }
 
 #btnEst{
     width: 8em;
-    color: grey;
+    color: white;
     margin-left: 0.5em;
-    background-color: white;
+    border-radius: 5px;
+    background-color: #001219;
     cursor: pointer;
     margin-right: 2em;
+    transition: 300ms;
 
+}
+
+#btnEst:hover{
+    color: black;
+    background: #e9d8a6; 
 }
 
 
