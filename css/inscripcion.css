@@ -143,7 +143,9 @@ footer #footer{
     border-top: 25px solid #e9d8a6;
 }
 
-
+.error{
+    color: crimson;
+}
 
 .cajitas{
     margin-bottom: 2.2em;
