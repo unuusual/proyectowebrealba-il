@@ -182,40 +182,42 @@
                     <h2 class="rellForm">¡Rellena el formulario!</h2>
                 
                         <div class="bloqueUno">
-                            
+                        <div class="est-todos">    
                             <label for="establecimientos"></label>
-                            <select name="establecimientos" id="idiomas" class="seleccion">
-                                <option value=""> <p> Seleccioná tu establecimiento</p></option>
+                            <select name="establecimientos" id="establecimiento" class="seleccion">
+                                <option value="0" selected> <p> Seleccioná tu establecimiento</p></option>
                                 <option value="1">CAMBRIDGE SCHOOL/VILLA LURO</option>
                                 <option value="2">CAMBRIDGE SCHOOL/MATADEROS</option>
                                 <option value="3">CAMBRIDGE SCHOOL/LAFERRERE</option>
                                 <option value="4">CAMBRIDGE SCHOOL/RAMOS MEJIA</option>
                             </select>
                             
+                        </div>
+                        <div>
                             <select name="zonas" id="zonas" class="seleccion">
-                                <option value="">Seleccioná una zona</option>
-                                <option value="1">VILLA LURO</option>
-                                <option value="2">MATADEROS</option>
-                                <option value="3">LAFERRERE</option>
-                                <option value="4">RAMOS MEJIA</option>
+                                <option value="0" selected>Seleccioná una zona</option>
+                                <option value="1" id="villa-luro">VILLA LURO</option>
+                                <option value="2" id="mataderos">MATADEROS</option>
+                                <option value="3" id="lafe">LAFERRERE</option>
+                                <option value="4" id="ramos-mejia">RAMOS MEJIA</option>
                             </select>
                         
-                        <div>
+                        <div class="est-todos">
                             <label for="idiomas"></label>
                             <select name="idiomas" id="idiomas" class="seleccion">
-                                <option value=""> <p> Seleccioná tu idioma</p></option>
-                                <option value="1">INGLES</option>
-                                <option value="2">ITALIANO</option>
-                                <option value="3">JAPONES</option>
-                                <option value="4">PORTUGUES</option>
-                                <option value="5">COREANO</option>
-                                <option value="6">CHINO</option>
-                                <option value="7">RUSO</option>
-                                <option value="8">FRANCES</option>
+                                <option value="0" id="todos" selected> <p> Seleccioná tu idioma</p></option>
+                                <option value="1" id="ingles">INGLES</option>
+                                <option value="2" id="italiano">ITALIANO</option>
+                                <option value="3" id="japones">JAPONES</option>
+                                <option value="4" id="portugues">PORTUGUES</option>
+                                <option value="5" id="coreano">COREANO</option>
+                                <option value="6" id="chino">CHINO</option>
+                                <option value="7" id="ruso">RUSO</option>
+                                <option value="8" id="frances">FRANCES</option>
                             </select>
                         </div>
 
-                        <div>
+                        <div class="est-todos">
                             <label for="horariosModalidad"></label>
                             <select name="horariosModalidad" id="horariosModalidad" class="seleccion">
                                 <option value=""> <p>Seleccioná tu horario y modalidad</p> </option>
@@ -232,11 +234,11 @@
                         </div>
 
                         <div class="contengoFormPalabras">
-                            <div id="nombre" class="white"> <p> Nombre del establecimiento: </p></div>
-                            <div id="direccion" class="white"><p> Direccion: </p></div>
-                            <div id="localidad" class="white"><p> Localidad: </p></div>
-                            <div id="provincia" class="white"><p> Provincia: </p></div>
-                            <div id="email" class="white"><p> Email: </p></div>
+                            <div id="nombre" class="white"></div>
+                            <div id="direccion" class="white"></div>
+                            <div id="localidad" class="white"></div>
+                            <div id="provincia" class="white"></div>
+                            <div id="email" class="white"></div>
                         </div>
                 </div>
                 
