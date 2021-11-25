@@ -19,6 +19,10 @@ body{
     border: 2px solid #e9d8a6;
 }
 
+.red{
+    color: crimson ;
+}
+
 #menu ul{
     display: flex;
     justify-content: center;

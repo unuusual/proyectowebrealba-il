@@ -15,15 +15,32 @@ $(document).ready(function(){
       }
     });
 
-
-    
-
-
-
   $("#establecimiento").change(function(){
         llenarCombo($(this).val());
     });
+
+  $("#botoncito").click(function(){
+      guardar();
+  });
 });
+
+
+function guardar(){
+  let establecimientos = $("#establecimiento").val();
+  let zonas = $("#zonas").val();
+  let idiomas = $("#idiomas").val();
+  let horarios = $("#horariosModalidad").val();
+
+  window.localStorage.setItem("establecimiento", establecimientos);
+  window.localStorage.setItem("zonas", zonas);
+  window.localStorage.setItem("idioma", idiomas);
+  window.localStorage.setItem("horarios", horarios);
+
+  $("#establecimientoSpan").text(establecimientos);
+  $("#zonasSpan").text(zonas);
+  $("#idiomaSpan").text(idiomas);
+  $("#horariosModalidadSpan").text(horarios);
+}
 
 function llenarCombo(){
   let establecimientos = $("#establecimiento").val();
@@ -41,15 +58,6 @@ function llenarCombo(){
   let mataderos = $("#mataderos");
   let lafe = $("#lafe");
   let villa = $("#villa-luro");
-
-  let persona = [{
-    nombre : hector,
-    age : 34
-  }];
-
-  localStorage.setItem("persona", JSON.stringify(persona));
-
-
 
   if(establecimientos == 0){
     lafe.hide();

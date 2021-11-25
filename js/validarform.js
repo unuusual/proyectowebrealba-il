@@ -9,8 +9,26 @@ $(document).ready(function(){
         validar(e);
     });
 
+let establecimientos = window.localStorage.getItem("establecimiento");
+$("#establecimientoSpan").addClass("red");
+$("#establecimientoSpan").text(establecimientos);
+
+let zonas = window.localStorage.getItem("zonas");
+$("#idiomaSpan").addClass("red");
+$("#idiomaSpan").text(zonas);
+
+let idiomas = window.localStorage.getItem("idioma");
+$("#zonasSpan").addClass("red");
+$("#zonasSpan").text(idiomas);
+
+let horarios = window.localStorage.getItem("horarios");
+$("#horariosModalidadSpan").addClass("red");
+$("#horariosModalidadSpan").text(horarios);
     
 });
+
+
+
 function validar(e){
     let error=false;
     $("#mensaje").empty();

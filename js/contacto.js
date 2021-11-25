@@ -35,12 +35,12 @@ function validar(e){
         $("#telefono").addClass("error");
     }
 
-    let expresion = /^[0-9]+$/;
+    let expresion = /^[0-9]{4}-[0-9]{4}$/;
     telefono = document.getElementById("telefono").value;
 
-    if(!expresion.test(telefono) || $("#telefono").val().length>8){
+    if(!expresion.test(telefono) || $("#telefono").val().length>9){
         error=true;
-        $("#mensaje").append("<p>Digite 8 numeros, sin codigo de pais.</p>");
+        $("#mensaje").append("<p>Digite 8 numeros, sin codigo de pais, ejemplo: 4444-4444</p>");
         $("#telefono").addClass("error");
     }
 
@@ -48,7 +48,7 @@ function validar(e){
 
     if($("#telefono").val().length<=7){
         error=true;
-        $("#mensaje").append("<p>No digite menos de 8 numeros.</p>");
+        $("#mensaje").append("<p>No digite menos de 8 numeros, ejemplo: 4444-4444</p>");
         $("#telefono").addClass("error");
     }
 
@@ -93,7 +93,7 @@ function validar(e){
     }
 
     $("#boton").click(function(){
-        if($("#telefono").val().length==8){
+        if($("#telefono").val().length==9){
             alert(bien);
             createAutoClosingAlert(2000);
         }
