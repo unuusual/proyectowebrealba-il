@@ -271,46 +271,92 @@ body{
 
 footer #footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: row;
     background: #001219;
     padding: 50px;
     color: #adb5bd;
     border-top: 25px solid #e9d8a6;
 }
 
-#footer h2{
+
+
+.cajitas{
+    margin-bottom: 2.2em;
+}
+
+
+.cajitas a{
+    display: flex;
+    margin-top: 0.1em;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: #adb5bd;
+    
+}
+
+.cajitas p{
+    display: flex;
+    margin-top: 0.1em;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: #adb5bd;
+    
+}
+
+.cajitas a:hover{
     color: white;
 }
 
+#footer h2{
+    color: white;
+    margin-top: 1em;
+}
+
 #footer div{
-    margin-top: 30px;
+    margin-top: 1.2em;
 }
 
 #footer p{
     margin-top: 5px;
+    text-align: center;
 }
 
-#redes-sociales a img{
+
+#redes-sociales{
+    display: flex;
+    justify-content: center;
+}
+
+div.image{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#redes-sociales .contengoDobleFooter a img{
     display: inline;
     border-radius: 50%;
-    margin-left: 20px;
-    margin-top: 20px;
     border: 1px solid white;
     background: #e9d8a6;
-    width: 30px;
-    height: 30px;
+    max-width: 100%;
+    margin-top: 0em;
+    margin-left: 0em;
+    width: 32px;
+    height: 32px;
 }
 
-#redes-sociales a img:hover{
-    transition: 300ms;
-    background: white;
+.contengoDobleFooter{
+    display: flex;
+    flex-direction: column;
 }
 
-#cajita a{
-    text-decoration: none;
-    color: #adb5bd;
-}
-
-#cajita a:hover{
-    color: white;
+#redes-sociales img{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
 }

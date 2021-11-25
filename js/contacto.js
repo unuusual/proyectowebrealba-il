@@ -38,9 +38,17 @@ function validar(e){
     let expresion = /^[0-9]+$/;
     telefono = document.getElementById("telefono").value;
 
-    if(!expresion.test(telefono) || $("#telefono").val().length>10){
+    if(!expresion.test(telefono) || $("#telefono").val().length>8){
         error=true;
-        $("#mensaje").append("<p>Digite hasta 10 numeros, sin codigo de pais.</p>");
+        $("#mensaje").append("<p>Digite 8 numeros, sin codigo de pais.</p>");
+        $("#telefono").addClass("error");
+    }
+
+
+
+    if($("#telefono").val().length<=7){
+        error=true;
+        $("#mensaje").append("<p>No digite menos de 8 numeros.</p>");
         $("#telefono").addClass("error");
     }
 
@@ -85,9 +93,10 @@ function validar(e){
     }
 
     $("#boton").click(function(){
-        if(error == false){
+        if($("#telefono").val().length==8){
             alert(bien);
             createAutoClosingAlert(2000);
         }
+
     });
 }

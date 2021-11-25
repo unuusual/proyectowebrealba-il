@@ -432,10 +432,12 @@ footer #footer{
 #redes-sociales{
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
 }
 
-#redes-sociales a img{
+#redes-sociales .image a img{
     display: inline;
+    align-items: center;
     border-radius: 50%;
     margin-left: 0.8em;
     margin-top:  0.8em;
@@ -443,6 +445,16 @@ footer #footer{
     background: #e9d8a6;
     max-width: 100%;
     height: auto;
+}
+
+div.image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+#logoGrande{
+    display: none;
 }
 
 @media screen and (min-width:1080px){
@@ -639,7 +651,110 @@ footer #footer{
         display: flex;
         justify-content: center;
     }
+
+    footer #footer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        background: #001219;
+        padding: 50px;
+        color: #adb5bd;
+        border-top: 25px solid #e9d8a6;
+    }
+
+    footer h2{
+        font-size: 2.1em;
+    }
+
+    footer a{
+        font-size: 1em;
+    }
     
+    .cajitas{
+        margin-bottom: 2.2em;
+    }
+    
+    
+    .cajitas a{
+        display: flex;
+        margin-top: 0.1em;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+        color: #adb5bd;
+        font-size: 1.1em;
+    }
+    
+    .cajitas p{
+        display: flex;
+        margin-top: 0.1em;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+        color: #adb5bd;
+        font-size: 1.5em;
+    }
+    
+    .cajitas a:hover{
+        color: white;
+    }
+    
+    #footer h2{
+        color: white;
+        margin-top: 1em;
+    }
+    
+    #footer div{
+        margin-top: 1.2em;
+    }
+    
+    #footer p{
+        margin-top: 5px;
+        text-align: center;
+    }
+    
+    
+    #redes-sociales{
+        display: flex;
+        justify-content: center;
+    }
+    
+    div.image{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #redes-sociales .contengoDobleFooter a img{
+        display: inline;
+        border-radius: 50%;
+        border: 1px solid white;
+        background: #e9d8a6;
+        max-width: 100%;
+        margin-top: 0em;
+        margin-left: 0em;
+        width: 32px;
+        height: 32px;
+    }
+
+    .contengoDobleFooter{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #redes-sociales img{
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+        max-width: 100%;
+        width: 200px;
+        height: 200px;
+    }
+
+    #redes{
+        display: none;
+    }
+    
+ 
     
 }
 
