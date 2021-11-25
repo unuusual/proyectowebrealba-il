@@ -51,6 +51,7 @@ body{
     flex-direction: column;
     background: #001219;
     border-bottom: 2px solid #e9d8a6;
+    margin-bottom: 2em;
 }
 
 /* 
@@ -79,6 +80,7 @@ body{
     display: block;
     line-height: 50px;
     margin: 10px;
+    margin-bottom: 2em;
 }
 
 #menu ul li a{
