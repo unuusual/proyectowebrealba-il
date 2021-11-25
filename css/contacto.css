@@ -8,6 +8,26 @@ body{
     background: #001219;
 }
 
+#contador p{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+}
+
+#contador2 p{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+}
+
+.error{
+    color: crimson;
+}
+
+.blanco{
+    color: white;
+}
+
 #titulo{
     display: flex;
     justify-content: center;
