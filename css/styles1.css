@@ -97,6 +97,10 @@ body{
     
 }
 
+.white{
+    color: white;
+}
+
 #carrousel img{
     display: flex;
     width: 100%;
@@ -660,6 +664,132 @@ div.image{
         justify-content: center;
     }
 
+    
+
+
+    #buscarCurso{
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        border: 2px solid orange;
+        margin-bottom: 25px;
+        padding: 0em;
+    }
+    
+    #buscarCurso h2{
+        display: flex;
+        justify-content: center;
+        color: white;
+    
+    }
+    
+    #caja{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    
+    }
+    .seleccion{
+        width: 100%;
+        height: auto;
+        background: #ced4da;
+        border-bottom: 1px solid black;
+        color: black;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 1em;
+        box-shadow: 0px 0px 5px black;
+        padding: 0.2em;
+        font-size: 1.7em;
+    }
+ 
+    
+    .seleccion p{
+        font-size: 2.5em;
+    }
+    
+    #info .classForm{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #info h2{
+        font-size: 1.5em;
+    }
+
+
+    
+    .cajitaTexto{
+        display: flex;
+        justify-content: space-around;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        background: #dee2e6;
+        border-radius: 20px;
+        padding: 0.2em;
+        font-size: 1.7em;
+        margin-bottom: 0.9em;
+    }
+    .bloqueUno{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .dosBloques{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 1em;
+    }
+
+
+    
+    .cajitaTexto p{
+        font-size: 1.7em;
+    }
+    
+    #nombreEst{
+        margin-top: 2em;
+    }
+    
+    #email{
+        margin-bottom: 1.9em;
+    }
+    
+    #nombrePrecio{
+        margin-top: 2em;
+    }
+    
+    .cajitaTexto::placeholder{
+        text-align: center;
+    }
+    
+    #boton{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #botoncito{
+        background: white;
+        color: #001219;
+        padding: 0.7em;
+        border-radius: 15px;
+        box-shadow: 0px 0px 4px black;
+        cursor:pointer;
+        font-size: 0.8em;
+        margin-bottom: 0.4em;
+    
+    }
+    
+    #botoncito:hover{
+        transition: ease-in 0.5s;
+        box-shadow: 0px 0px 10px black;
+        cursor:pointer;
+    }
+
     footer #footer{
         display: flex;
         justify-content: space-evenly;
@@ -691,6 +821,11 @@ div.image{
         text-decoration: none;
         color: #adb5bd;
         font-size: 1.1em;
+    }
+
+    .contengoFormPalabras {
+        font-size: 0.7em;
+        margin-top: 0.4em;
     }
     
     .cajitas p{
@@ -763,7 +898,7 @@ div.image{
     }
     
     .rellForm{
-        font-size: 4em;
+        font-size: 3em;
         border: 2px solid white;
         padding: 1em;
         margin-bottom: 1em;
