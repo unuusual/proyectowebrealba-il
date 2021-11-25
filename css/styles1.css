@@ -389,6 +389,12 @@ footer #footer{
     margin-bottom: 2.2em;
 }
 
+.rellForm{
+    font-size: 4em;
+    border: 2px solid white;
+    padding: 1em;
+    margin-bottom: 1em;
+}
 
 .cajitas a{
     display: flex;
@@ -754,7 +760,12 @@ div.image{
         display: none;
     }
     
- 
+    .rellForm{
+        font-size: 4em;
+        border: 2px solid white;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
     
 }
 
