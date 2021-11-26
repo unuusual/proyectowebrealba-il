@@ -93,10 +93,11 @@ function validar(e){
     }
 
     $("#boton").click(function(){
-        if($("#telefono").val().length==9){
-            alert(bien);
+        if($("#textArea").val().length<1000 && $("#telefono").val().length==9){
+            alert("Enviado correctamente");
             createAutoClosingAlert(2000);
         }
-
     });
+
+    
 }
