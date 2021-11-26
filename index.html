@@ -10,6 +10,7 @@
         <script src="js/jquery.min.js"></script>
         <script src="js/funciones.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+        <script src="js/index.js"></script>
         <script src="js/jquery.nivo.slider.js"></script> 
         <script type="text/javascript">
             $(document).ready(function(){
@@ -179,13 +180,13 @@
                 
                 <form action="inscripcion.html" method="post">
                     <label for="zonas"></label>
-                    <h2 class="rellForm">¡Rellena el formulario!</h2>
+                    <h2 id="rellForm"class="rellForm">¡Rellena el formulario!</h2>
                 
                         <div class="bloqueUno">
                         <div class="est-todos">    
                             <label for="establecimientos"></label>
                             <select name="establecimientos" id="establecimiento" class="seleccion">
-                                <option value="0" selected> <p> Seleccioná tu establecimiento</p></option>
+                                <option id ="est0" value="0" selected> <p> Seleccioná tu establecimiento</p></option>
                                 <option id="est1" value="1"> <p>CAMBRIDGE SCHOOL/VILLA LURO</p> </option>
                                 <option id="est2" value="2">CAMBRIDGE SCHOOL/MATADEROS</option>
                                 <option id="est3" value="3">CAMBRIDGE SCHOOL/LAFERRERE</option>
